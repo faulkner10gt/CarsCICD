@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_carsdemo.Car</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Car</name>
+        <script><![CDATA[var Car = Class.create();
+Car.prototype = {
+    initialize: function() {
+    },
+
+    type: 'Car'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-10 05:08:14</sys_created_on>
+        <sys_id>f1bc2a61dbf377004286f3e51d961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car</sys_name>
+        <sys_package display_value="Cars" source="x_snc_carsdemo">6cb96e6ddbb377004286f3e51d961961</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Cars">6cb96e6ddbb377004286f3e51d961961</sys_scope>
+        <sys_update_name>sys_script_include_f1bc2a61dbf377004286f3e51d961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-10 05:08:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
